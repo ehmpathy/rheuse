@@ -3,7 +3,7 @@
 ![test](https://github.com/ehmpathy/rheuse/workflows/test/badge.svg)
 ![publish](https://github.com/ehmpathy/rheuse/workflows/publish/badge.svg)
 
-react components framework for maximal component reuse across environments
+react components framework for universal reuse across environments
 
 # purpose
 

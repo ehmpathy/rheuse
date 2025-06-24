@@ -1,4 +1,5 @@
 import { Image, ImageContentPositionString } from 'expo-image';
+import React from 'react';
 import { createIsOfEnum } from 'type-fns';
 
 import { Block } from '../foundation/Block/Block';

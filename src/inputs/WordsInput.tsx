@@ -1,5 +1,4 @@
-import { colors } from '@src/components/brand/colors';
-import { CSSProperties, Ref, useEffect, useRef, useState } from 'react';
+import React, { CSSProperties, Ref, useEffect, useRef, useState } from 'react';
 import { Platform, TextInputProps } from 'react-native';
 
 import { Block } from '../foundation/Block/Block';
@@ -263,7 +262,7 @@ export const WordsInput = ({
     onBlur: () => onBlur?.(),
     autoComplete: autocomplete,
     placeholder,
-    placeholderTextColor: colors.text.secondary,
+    placeholderTextColor: 'rgba(0, 0, 0, 0.6)', // todo: make configurable
     style: {
       ...stylesFromTypography,
       ...(stylesFromRemovals as PrimitiveTextStyle),

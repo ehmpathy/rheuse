@@ -1,5 +1,5 @@
 import { Link as ExpoLink } from 'expo-router';
-import { createContext, useContext } from 'react';
+import React, { createContext, useContext } from 'react';
 
 /**
  * .what = information about the configuration of a primitive link

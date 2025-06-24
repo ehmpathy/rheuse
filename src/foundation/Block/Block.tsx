@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { isAFunction, isPresent } from 'type-fns';
 
 import {
